@@ -31,9 +31,16 @@ export default function Header({
 
         <nav className="flex items-center gap-6 text-sm text-gray-700">
           <Link to="/" className="hover:text-black">Home</Link>
+          <Link to="/About" className="hover:text-black">About Us</Link>
           <Link to="/services" className="hover:text-black">Services</Link>
-          <Link to="/pricing" className="hover:text-black">Pricing</Link>
+          <Link to="/information" className="hover:text-black">information</Link>
+
          
+           <Link to="/pricing" className="hover:text-black">Pricing</Link>
+
+             
+          <Link to="/Refund" className="hover:text-black">Refund and Cancel</Link>
+              
 
          <Link to="/policy" className="  hover:text-black">Policy</Link>
 
